@@ -742,6 +742,9 @@ local Vehicles = {
     { model = 'openwheel1',    name = 'BR8',                           brand = 'Benefactor',      price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
     { model = 'formula2',      name = 'R88',                           brand = 'Ocelot',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
     { model = 'formula',       name = 'PR4',                           brand = 'Progen',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
+    --- Veicoli Custom
+    { model = 'st3',          name = 'Fiesta ST',                      brand = 'Ford',           price = 30000,   category = 'compacts',       type = 'automobile', shop = 'pdm' },
+    { model = 'p207',          name = '207',                      brand = 'Peugeot',           price = 3000,   category = 'compacts',       type = 'automobile', shop = 'pdm' },
 }
 
 for i = 1, #Vehicles do
