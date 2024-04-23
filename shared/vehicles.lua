@@ -742,7 +742,6 @@ local Vehicles = {
     { model = 'openwheel1',    name = 'BR8',                           brand = 'Benefactor',      price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
     { model = 'formula2',      name = 'R88',                           brand = 'Ocelot',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
     { model = 'formula',       name = 'PR4',                           brand = 'Progen',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
-    
     --- Veicoli DLC 3095 The Chop Shop
     { model = 'asterope2',     name = 'Asterope GZ',                   brand = 'Karin',           price = 459000,  category = 'sedans',         type = 'automobile', shop = 'pdm' },
     { model = 'aleutian',      name = 'Aleutian',                      brand = 'Vapid',           price = 183500,  category = 'suvs',           type = 'automobile', shop = 'pdm' },
@@ -750,8 +749,8 @@ local Vehicles = {
     { model = 'cavalcade3',    name = 'Cavalcade XL',                  brand = 'Albany',          price = 166500,  category = 'suvs',           type = 'automobile', shop = 'pdm' },
     { model = 'dorado',        name = 'Dorado',                        brand = 'Bravado',         price = 137500,  category = 'suvs',           type = 'automobile', shop = 'pdm' },
     { model = 'vivanite',      name = 'Vivanite',                      brand = 'Karin',           price = 160500,  category = 'suvs',           type = 'automobile', shop = 'pdm' },
-    { model = 'fr36',          name = 'FR36',                          brand = 'Fathom',          price = 161000,  category = 'Coupes',         type = 'automobile', shop = 'pdm' },
-    { model = 'driftfr36',     name = 'FR36 (Drift)',                  brand = 'Fathom',          price = 160500,  category = 'Coupes',         type = 'automobile', shop = 'pdm' },
+    { model = 'fr36',          name = 'FR36',                          brand = 'Fathom',          price = 161000,  category = 'coupes',         type = 'automobile', shop = 'pdm' },
+    { model = 'driftfr36',     name = 'FR36 (Drift)',                  brand = 'Fathom',          price = 160500,  category = 'coupes',         type = 'automobile', shop = 'pdm' },
     { model = 'dominator9',    name = 'Dominator GT',                  brand = 'Vapid',           price = 219500,  category = 'muscle',         type = 'automobile', shop = 'pdm' },
     { model = 'impaler5',      name = 'Impaler SZ',                    brand = 'Declasse',        price = 146500,  category = 'muscle',         type = 'automobile', shop = 'pdm' },
     { model = 'impaler6',      name = 'Impaler LX',                    brand = 'Declasse',        price = 146500,  category = 'muscle',         type = 'automobile', shop = 'pdm' },
@@ -764,7 +763,7 @@ local Vehicles = {
     { model = 'driftremus',    name = 'Remus (Drift)',                 brand = 'Annis',           price = 229500,  category = 'sports',         type = 'automobile', shop = 'pdm' },
     { model = 'drifttampa',    name = 'Drift Tampa',                   brand = 'Declasse',        price = 229500,  category = 'sports',         type = 'automobile', shop = 'pdm' },
     { model = 'driftzr350',    name = 'ZR350 (Drift)',                 brand = 'Annis',           price = 229500,  category = 'sports',         type = 'automobile', shop = 'pdm' },
-    { model = 'turismo3',      name = 'Turismo Omaggio',               brand = 'Grotti',          price = 284500,  category = 'Super',          type = 'automobile', shop = 'luxury' },
+    { model = 'turismo3',      name = 'Turismo Omaggio',               brand = 'Grotti',          price = 284500,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'trailers5',     name = 'Trailer (Christmas)',           brand = 'Unknown',         price = 30000,   category = 'utility',        type = 'automobile', shop = 'truck' },
     { model = 'tvtrailer2',    name = 'Trailer (TV)',                  brand = 'Unknown',         price = 30000,   category = 'utility',        type = 'automobile', shop = 'truck' },
     { model = 'boattrailer2',  name = 'Boat Trailer (Dinghy)',         brand = 'Unknown',         price = 30000,   category = 'utility',        type = 'automobile', shop = 'truck' },
@@ -777,11 +776,10 @@ local Vehicles = {
     { model = 'police5',       name = 'Stanier LE Cruiser',            brand = 'Vapid',           price = 40000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'benson2',       name = 'Benson (Cluckin Bell)',         brand = 'Vapid',           price = 55000,   category = 'commercial',     type = 'automobile', shop = 'truck' },
     { model = 'phantom4',      name = 'Phantom (Christmas)',           brand = 'Vapid',           price = 100000,  category = 'commercial',     type = 'automobile', shop = 'truck' },
-
     --- Veicoli Custom
     { model = 'st3',           name = 'Fiesta ST',                     brand = 'Ford',            price = 30000,   category = 'compacts',       type = 'automobile', shop = 'pdm' },
     { model = 'p207',          name = '207',                           brand = 'Peugeot',         price = 3000,    category = 'compacts',       type = 'automobile', shop = 'pdm' },
-    { model = '4c',            name = '4C',                            brand = 'Alfa Romeo'       price = 50000,   category = 'sports',         type = 'automobile', shop = 'pdm' },
+    { model = '4c',            name = '4C',                            brand = 'Alfa Romeo',      price = 40000,   category = 'sports',         type = 'automobile', shop = 'pdm' },
 }
 
 for i = 1, #Vehicles do
